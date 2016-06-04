@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDAEA9C81D031FA400AFCCEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAEA9C71D031FA400AFCCEC /* AppDelegate.swift */; };
+		DDAEA9CA1D031FA400AFCCEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAEA9C91D031FA400AFCCEC /* ViewController.swift */; };
+		DDAEA9CD1D031FA400AFCCEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAEA9CB1D031FA400AFCCEC /* Main.storyboard */; };
+		DDAEA9CF1D031FA400AFCCEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAEA9CE1D031FA400AFCCEC /* Assets.xcassets */; };
+		DDAEA9D21D031FA400AFCCEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAEA9D01D031FA400AFCCEC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDAEA9C41D031FA400AFCCEC /* StackSkillsExcerciseRetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackSkillsExcerciseRetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAEA9C71D031FA400AFCCEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDAEA9C91D031FA400AFCCEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDAEA9CC1D031FA400AFCCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDAEA9CE1D031FA400AFCCEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDAEA9D11D031FA400AFCCEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDAEA9D31D031FA400AFCCEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDAEA9C11D031FA400AFCCEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDAEA9BB1D031FA400AFCCEC = {
+			isa = PBXGroup;
+			children = (
+				DDAEA9C61D031FA400AFCCEC /* StackSkillsExcerciseRetroCalculator */,
+				DDAEA9C51D031FA400AFCCEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDAEA9C51D031FA400AFCCEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDAEA9C41D031FA400AFCCEC /* StackSkillsExcerciseRetroCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDAEA9C61D031FA400AFCCEC /* StackSkillsExcerciseRetroCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				DDAEA9C71D031FA400AFCCEC /* AppDelegate.swift */,
+				DDAEA9C91D031FA400AFCCEC /* ViewController.swift */,
+				DDAEA9CB1D031FA400AFCCEC /* Main.storyboard */,
+				DDAEA9CE1D031FA400AFCCEC /* Assets.xcassets */,
+				DDAEA9D01D031FA400AFCCEC /* LaunchScreen.storyboard */,
+				DDAEA9D31D031FA400AFCCEC /* Info.plist */,
+			);
+			path = StackSkillsExcerciseRetroCalculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDAEA9C31D031FA400AFCCEC /* StackSkillsExcerciseRetroCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAEA9D61D031FA400AFCCEC /* Build configuration list for PBXNativeTarget "StackSkillsExcerciseRetroCalculator" */;
+			buildPhases = (
+				DDAEA9C01D031FA400AFCCEC /* Sources */,
+				DDAEA9C11D031FA400AFCCEC /* Frameworks */,
+				DDAEA9C21D031FA400AFCCEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StackSkillsExcerciseRetroCalculator;
+			productName = StackSkillsExcerciseRetroCalculator;
+			productReference = DDAEA9C41D031FA400AFCCEC /* StackSkillsExcerciseRetroCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDAEA9BC1D031FA400AFCCEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GoTechCon;
+				TargetAttributes = {
+					DDAEA9C31D031FA400AFCCEC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2XQQ734Q75;
+					};
+				};
+			};
+			buildConfigurationList = DDAEA9BF1D031FA400AFCCEC /* Build configuration list for PBXProject "StackSkillsExcerciseRetroCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDAEA9BB1D031FA400AFCCEC;
+			productRefGroup = DDAEA9C51D031FA400AFCCEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDAEA9C31D031FA400AFCCEC /* StackSkillsExcerciseRetroCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDAEA9C21D031FA400AFCCEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAEA9D21D031FA400AFCCEC /* LaunchScreen.storyboard in Resources */,
+				DDAEA9CF1D031FA400AFCCEC /* Assets.xcassets in Resources */,
+				DDAEA9CD1D031FA400AFCCEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDAEA9C01D031FA400AFCCEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAEA9CA1D031FA400AFCCEC /* ViewController.swift in Sources */,
+				DDAEA9C81D031FA400AFCCEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDAEA9CB1D031FA400AFCCEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDAEA9CC1D031FA400AFCCEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDAEA9D01D031FA400AFCCEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDAEA9D11D031FA400AFCCEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDAEA9D41D031FA400AFCCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDAEA9D51D031FA400AFCCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDAEA9D71D031FA400AFCCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StackSkillsExcerciseRetroCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotechcon.StackSkillsExcerciseRetroCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDAEA9D81D031FA400AFCCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StackSkillsExcerciseRetroCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotechcon.StackSkillsExcerciseRetroCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDAEA9BF1D031FA400AFCCEC /* Build configuration list for PBXProject "StackSkillsExcerciseRetroCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAEA9D41D031FA400AFCCEC /* Debug */,
+				DDAEA9D51D031FA400AFCCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAEA9D61D031FA400AFCCEC /* Build configuration list for PBXNativeTarget "StackSkillsExcerciseRetroCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAEA9D71D031FA400AFCCEC /* Debug */,
+				DDAEA9D81D031FA400AFCCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDAEA9BC1D031FA400AFCCEC /* Project object */;
+}
